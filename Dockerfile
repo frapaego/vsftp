@@ -20,7 +20,7 @@ ENV MAX_LOGIN_FAILS 2
 ENV MAX_CLIENTS 50
 ENV MAX_RATE 6250000
 ENV PASV_ADDRESS 127.0.0.1
-ENV FTPD_BANNER "FTP Server recursos Docker"
+ENV FTPD_BANNER "Welcome to an awesome public FTP Server"
 
 VOLUME ["/var/ftp"]
 
